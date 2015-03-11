@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9EA41A6C1AB0ED40001F21F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA41A6B1AB0ED40001F21F2 /* main.m */; };
 		9EA41A6F1AB0ED40001F21F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA41A6E1AB0ED40001F21F2 /* AppDelegate.m */; };
-		9EA41A721AB0ED40001F21F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA41A711AB0ED40001F21F2 /* ViewController.m */; };
+		9EA41A721AB0ED40001F21F2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA41A711AB0ED40001F21F2 /* WebViewController.m */; };
 		9EA41A751AB0ED40001F21F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA41A731AB0ED40001F21F2 /* Main.storyboard */; };
 		9EA41A771AB0ED41001F21F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA41A761AB0ED41001F21F2 /* Images.xcassets */; };
 		9EA41A7A1AB0ED41001F21F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA41A781AB0ED41001F21F2 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		9EA41A6B1AB0ED40001F21F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EA41A6D1AB0ED40001F21F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EA41A6E1AB0ED40001F21F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9EA41A701AB0ED40001F21F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9EA41A711AB0ED40001F21F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EA41A701AB0ED40001F21F2 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9EA41A711AB0ED40001F21F2 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		9EA41A741AB0ED40001F21F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EA41A761AB0ED41001F21F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9EA41A791AB0ED41001F21F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				9EA41A6D1AB0ED40001F21F2 /* AppDelegate.h */,
 				9EA41A6E1AB0ED40001F21F2 /* AppDelegate.m */,
-				9EA41A701AB0ED40001F21F2 /* ViewController.h */,
-				9EA41A711AB0ED40001F21F2 /* ViewController.m */,
+				9EA41A701AB0ED40001F21F2 /* WebViewController.h */,
+				9EA41A711AB0ED40001F21F2 /* WebViewController.m */,
 				9EA41A731AB0ED40001F21F2 /* Main.storyboard */,
 				9EA41A761AB0ED41001F21F2 /* Images.xcassets */,
 				9EA41A781AB0ED41001F21F2 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA41A721AB0ED40001F21F2 /* ViewController.m in Sources */,
+				9EA41A721AB0ED40001F21F2 /* WebViewController.m in Sources */,
 				9EA41A6F1AB0ED40001F21F2 /* AppDelegate.m in Sources */,
 				9EA41A6C1AB0ED40001F21F2 /* main.m in Sources */,
 			);
@@ -414,6 +414,7 @@
 				9EA41A8B1AB0ED41001F21F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EA41A8C1AB0ED41001F21F2 /* Build configuration list for PBXNativeTarget "MySafariTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				9EA41A8E1AB0ED41001F21F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
